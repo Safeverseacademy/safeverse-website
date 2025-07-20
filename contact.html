@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +6,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header><h1>Contact Us</h1></header>
+    <header>
+        <img src="logo.jpg" alt="SafeVerse Academy Logo" class="logo">
+        <h1>Contact Us</h1>
+    </header>
     <nav>
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
@@ -15,6 +17,22 @@
         <a href="contact.html">Contact</a>
     </nav>
     <section>
+        <h2>Get in Touch</h2>
+        <form action="https://formsubmit.co/safeverseacademy@gmail.com" method="POST">
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone"><br><br>
+
+            <label for="message">Your Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+            <button type="submit" class="cta">Send Message</button>
+        </form>
         <p>Email: safeverseacademy@gmail.com</p>
         <p>Phone: 7321004689</p>
         <p>Website: www.safeverseacademy.com</p>
